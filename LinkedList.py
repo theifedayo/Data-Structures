@@ -1,6 +1,6 @@
 """Class of Node and Linkedlist created with different methods for the 
 LinkedList class"""
-
+#ss
 
 #Node object created with data and next-pointer attributes
 class Node:
