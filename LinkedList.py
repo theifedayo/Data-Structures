@@ -85,6 +85,15 @@ class LinkedList:
 		prev.next = cur_node.next
 		cur_node = None
 
+	#This method returns the number of node in the linkedlist
+	def list_len(self):
+		count = 0
+		cur_node = self.head
+		while cur_node:
+			count += 1
+			cur_node = cur_node.next
+		return count
+
 
 		
 #Applications
@@ -98,6 +107,7 @@ linked.delete_pos(4)
 
 
 linked.insert(linked.head.next,"C")
+print(linked.list_len())
 
 linked.print_list()
 			
